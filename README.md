@@ -33,6 +33,12 @@ Para executar: ng serve -o
 
 ### Criadas opções Home e Lista no menu
 
-Commit 5 - git checkout  
+Commit 5 - git checkout 2affe79fbb03d631c931c230060e4f6573e5ea0e  
 Esta versão executou os comandos "ng g c home" e "ng g c lista", além de criar os arquivo de módulo e de modificar o array de menus no app.component.ts.  
+Para executar: ng serve -o
+
+### Criada lista fixa com exemplo do po-ui.io
+
+Commit 6 - git checkout  
+Usado comando "ng g s list/list" para criar o arquivo do serviço e então copiado o conteúdo dos 3 arquivos do exemplo.  
 Para executar: ng serve -o
