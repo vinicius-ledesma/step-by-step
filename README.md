@@ -39,6 +39,12 @@ Para executar: ng serve -o
 
 ### Criada lista fixa com exemplo do po-ui.io
 
-Commit 6 - git checkout  
+Commit 6 - git checkout 0baa85a6b9e10006a6b7085e39841df11981577a  
 Usado comando "ng g s list/list" para criar o arquivo do serviço e então copiado o conteúdo dos 3 arquivos do exemplo.  
+Para executar: ng serve -o
+
+### Alterada a lista para exibir retorno do backend
+
+Commit 7 - git checkout  
+Necessário subir o rest em localhost:8081/rest pois está chumbado no fonte.  
 Para executar: ng serve -o
