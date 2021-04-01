@@ -63,12 +63,20 @@ Para executar: ng serve -o
 
 ### Configurado para fazer o build do Protheus
 
-Commit 10 - git checkout  
+Commit 10 - git checkout 41bc595398d1e6950a19c6b00342efce1a9e8d0e  
 Agora não funciona mais com ng serve pois não conhece mais o endereço do backend.  
-Para executar no Protheus é necessário:  
--Buildar o app com "ng build --prod";
--Compactar a pasta step-by-step da pasta dist;
--Renomear de zip para app;
--Criar um fonte prw com a função FwCallApp("step-by-step");
--Compilar o fonte e o arquivo .app;
+Para executar no Protheus é necessário:
+
+-Buildar o app com "ng build --prod";  
+-Compactar a pasta step-by-step da pasta dist;  
+-Renomear de zip para app;  
+-Criar um fonte prw com a função FwCallApp("step-by-step");  
+-Compilar o fonte e o arquivo .app;  
 -Colocar no menu e executar;
+
+### Criada mensagem de boas vindas com jsToAdvpl e AdvplToJs
+
+Commit 11 - git checkout  
+Mensagem de boas vindas respeita o nome do usuário logado e a data base selecionada na entrada do sistema.  
+Criados dois botões para demonstrar uma chamada sem necessidade de retorno e uma para pedir um retorno.
+Ainda está sem proteção e por isso só funciona dentro do Protheus.
