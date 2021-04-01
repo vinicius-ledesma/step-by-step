@@ -20,8 +20,11 @@
     "@angular/platform-browser-dynamic": "~10.0.6",
     "@angular/router": "~10.0.6",
     "@po-ui/ng-components": "^3.14.0",
+    "@po-ui/ng-templates": "^3.14.0",
     "@totvs/po-theme": "^4.11.0",
+    "protheus-lib-core": "^7.0.0",
     "rxjs": "~6.5.5",
+    "subsink": "^1.0.2",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"
   },

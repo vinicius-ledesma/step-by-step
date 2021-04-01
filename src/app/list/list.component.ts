@@ -23,7 +23,10 @@ export class ListComponent implements OnInit {
         this.items = res.items;
         this.isLoading = false;
       },
-      (err) => (this.isLoading = false)
+      (err) => {
+        this.isLoading = false;
+        console.log(err);
+      }
     );
   }
 }

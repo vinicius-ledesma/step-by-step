@@ -51,6 +51,12 @@ Para executar: ng serve -o
 
 ### Colocada tela de carregamento para aguardar API
 
-Commit 8 - git checkout  
+Commit 8 - git checkout 13c1ce6f81c427591ba9e820e3caff95de769d0b  
 Ainda necessita do rest sem login e com endereço chumbado.  
+Para executar: ng serve -o
+
+### Instalada a protheus-lib-core e configurado o appConfig.json
+
+Commit 9 - git checkout  
+Ainda necessita do rest sem login, mas o endereço do rest está no arquivo de configuração.  
 Para executar: ng serve -o

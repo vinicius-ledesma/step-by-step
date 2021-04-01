@@ -19,8 +19,6 @@ export class ListService {
   }
 
   getItems(): Observable<any> {
-    return this.http.get(
-      'http://localhost:8081/rest/api/crm/v1/customerVendor'
-    );
+    return this.http.get('/api/crm/v1/customerVendor');
   }
 }
