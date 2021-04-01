@@ -10,6 +10,10 @@ const routes: Routes = [
     component: HomeComponent,
   },
   {
+    path: 'index.html',
+    component: HomeComponent,
+  },
+  {
     path: 'list',
     component: ListComponent,
   },

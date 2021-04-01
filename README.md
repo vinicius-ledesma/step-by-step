@@ -57,6 +57,18 @@ Para executar: ng serve -o
 
 ### Instalada a protheus-lib-core e configurado o appConfig.json
 
-Commit 9 - git checkout  
+Commit 9 - git checkout b6ae0e3e6707a84afd730f29dfa11f35e92cfcb2  
 Ainda necessita do rest sem login, mas o endereço do rest está no arquivo de configuração.  
 Para executar: ng serve -o
+
+### Configurado para fazer o build do Protheus
+
+Commit 10 - git checkout  
+Agora não funciona mais com ng serve pois não conhece mais o endereço do backend.  
+Para executar no Protheus é necessário:  
+-Buildar o app com "ng build --prod";
+-Compactar a pasta step-by-step da pasta dist;
+-Renomear de zip para app;
+-Criar um fonte prw com a função FwCallApp("step-by-step");
+-Compilar o fonte e o arquivo .app;
+-Colocar no menu e executar;

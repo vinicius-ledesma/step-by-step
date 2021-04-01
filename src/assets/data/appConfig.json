@@ -1,4 +1,4 @@
 {
   "productLine": "Protheus",
-  "api_baseUrl": "http://localhost:8081/rest"
+  "api_baseUrl": "/"
 }

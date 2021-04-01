@@ -14,6 +14,7 @@ export class AppComponent implements OnInit {
   readonly menus: Array<PoMenuItem> = [
     { label: 'Home', link: '/' },
     { label: 'Lista', link: '/list' },
+    { label: 'Sair', action: () => this.configService.callAppClose() },
   ];
   ngOnInit(): void {
     this.configService.loadAppConfig();
