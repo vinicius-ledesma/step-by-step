@@ -1,4 +1,7 @@
 <po-page-default p-title="Lista">
+  <div>
+    <po-loading-overlay [hidden]="!isLoading"></po-loading-overlay>
+  </div>
   <po-table
     p-hide-columns-manager
     p-sort="true"

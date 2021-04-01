@@ -10,14 +10,20 @@ import { ListService } from './list.service';
 export class ListComponent implements OnInit {
   columns: Array<PoTableColumn>;
   items: Array<any>;
+  isLoading: boolean;
 
   constructor(private listService: ListService) {}
 
   ngOnInit(): void {
+    this.isLoading = true;
     this.columns = this.listService.getColumns();
     // tslint:disable-next-line: deprecation
-    this.listService.getItems().subscribe((res) => {
-      this.items = res.items;
-    });
+    this.listService.getItems().subscribe(
+      (res) => {
+        this.items = res.items;
+        this.isLoading = false;
+      },
+      (err) => (this.isLoading = false)
+    );
   }
 }

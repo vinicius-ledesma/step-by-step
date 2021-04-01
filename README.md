@@ -45,6 +45,12 @@ Para executar: ng serve -o
 
 ### Alterada a lista para exibir retorno do backend
 
-Commit 7 - git checkout  
-Necessário subir o rest em localhost:8081/rest pois está chumbado no fonte.  
+Commit 7 - git checkout 6d2b6c51fa450b2a99c4adf8f79063ca295f9472  
+Necessário subir o rest "sem segurança" em localhost:8081/rest pois está chumbado no fonte.  
+Para executar: ng serve -o
+
+### Colocada tela de carregamento para aguardar API
+
+Commit 8 - git checkout  
+Ainda necessita do rest sem login e com endereço chumbado.  
 Para executar: ng serve -o
